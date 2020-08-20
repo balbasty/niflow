@@ -10,6 +10,6 @@ setup(
     author_email='yael.balbastre@gmail.com',
     description='Neuroimaging in tensorflow',
     python_requires='>=3.5',
-    install_requires=['unik', 'nibabel'],
+    install_requires=['unik==0.1.0', 'nibabel'],
     dependency_links=['https://github.com/balbasty/unik/tarball/master#egg=unik-0.1.0'],
 )

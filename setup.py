@@ -12,5 +12,5 @@ setup(
     python_requires='>=3.5',
     install_requires=['unik==0.1.0',
                       'nibabel'],
-    dependency_links=['git+https://github.com/balbasty/unik#egg=unik-0.1.0'],
+    dependency_links=['git+https://github.com/balbasty/unik@master#egg=unik-0.1.0'],
 )

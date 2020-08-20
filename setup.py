@@ -11,5 +11,5 @@ setup(
     description='Neuroimaging in tensorflow',
     python_requires='>=3.5',
     install_requires=['unik', 'nibabel'],
-    dependency_links=['git+ssh://git@github.com/balbasty/unik.git#egg=unik-0.1.0'],
+    dependency_links=['https://git@github.com/balbasty/unik/tarball/master#egg=unik-0.1.0'],
 )
